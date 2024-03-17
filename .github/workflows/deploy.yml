@@ -7,7 +7,6 @@ on:
 
 jobs:
   build:
-    environment: Docker HUB
     runs-on: ubuntu-latest
     steps:
       # Checkout to the repository
@@ -24,4 +23,4 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: tomjtoth/DevOps-with-Docker-Express-app:latest
+          tags: tomjtoth/devops-with-docker-express-app:latest
